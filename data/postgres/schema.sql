@@ -1,0 +1,5 @@
+CREATE USER postgres WITH PASSWORD 'postgres';
+CREATE SCHEMA demo AUTHORIZATION postgres;
+GRANT ALL PRIVILEGES ON DATABASE postgres TO postgres;
+
+
